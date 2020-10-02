@@ -1,0 +1,52 @@
+<!DOCUMENT>
+<html>
+<head>
+<title> Onboarding survey </title>
+</head>
+<body>
+	<h1> Welcome to the Onboarding survey.</h1><br>
+<p><b> Please enter your name: </b></p>
+<form action="send to associated server/database">
+  <label for="firstName">First name:</label>
+  <input type="text" id="firstName" name="firstName" maxlength="20" size="35" placeholder="Maximum of 20 characters"><br>
+  <label for="lastName">Last name:</label>
+  <input type="text" id="lastName" name="lastName" maxlength="20" size="35" placeholder="Maximum of 20 characters"><br><br><br>
+
+
+<p><b>Who are you?</b></p>
+<textarea id ="aboutYou" name="aboutYou" cols="30" rows="4" placeholder="Write something about you here." style="background-color:#ffffb3;"></textarea><br><br><br>
+
+
+<p><i>Do you participate in any sport?</i></p>
+<input type="radio" id="yes" name="answer" value="No">
+<label for=yes>Yes</label><br>
+<input type="radio" id="no" name="answer" value="No">
+<label for="no">No</label><br><br><br>
+
+
+<p><b><i>How do you prefer to gather information about intresting stuff?</i></b></p>
+<input type="checkbox" id="books" name="gatherdata1" value="Books">
+<label for="books">Via books</label><br>
+<input type="checkbox" id="newspapers" name="gatherdata2" value="Newspapers">
+<label for="newspapers">Via newspapers</label><br>
+<input type="checkbox" id="online" name="gatherdata3" value="Online">
+<label for=online>Via internet</label><br><br><br>
+
+
+<p><b>Favorite movie genre?</p></b>
+<select id=movieGenre name="movieGenre" size="5">
+	<option value="action">Action</option>
+	<option value="romance">Romance</option>
+	<option value="comedy">Comedy</option>
+	<option value="drama">Drama</option>
+	<option value="horror">Horror</option>
+</select><br><br><br>
+
+
+<p>Please use the 'Submit form' button to send in the to the webservers.</p>
+<input type="submit" value="Submit form">
+<p>Or use the 'Reset form' button to reset all data fields.</p>
+<input type="reset" value="Reset form">
+</form>
+</body>
+</html>
