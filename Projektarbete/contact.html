@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>      
+        <title>Michael's Print Shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0"/>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="mobilestyle.css" rel="stylesheet" media="screen and (max-width: 600px)"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="top_of_page"></div>
+        <header>
+            <div class="logo-container">
+                <h1 class="logo">Michael's Print Shop</h1>
+            </div>
+            <nav>
+                <ul class=nav-links>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="gallery.html">Available Prints</a></li>
+                    <li><a class="nav-link" href="about.html">About the Photographer</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="contact-sheet">
+            <form action="mailto:michael.k.eriksson@gmail.com" method="post" 
+                enctype="multipart/form-data" name="buying-request">
+                <label for="subject-field">Subject:</label><br>
+                <input type="text" name="subject" id=subject-field maxlength="20" size="37" placeholder="Name of print"><br>
+                <br>
+                <label for="name-field">Your name:</label><br>
+                <input type="text" name="name" id=name-field size="37" placeholder="First name + Surname"><br>
+                <br>
+                <label for="email-field">Your Email:</label><br>
+                <input type="email" name="email" id=email-field size="37" placeholder="Enter valid Email"><br>
+                <br>
+                <textarea name="other-info" cols="33" rows="5" placeholder="Your questions or other information."></textarea><br><br>
+                <div class="button">
+                    <input type="submit" value="Send request">
+                    <input type="reset" value="Reset request">
+                </div>
+            </form>
+        </div>
+        
+        <footer>
+            <ul class=footer-links>
+                <li><a class="footer-link" href="#top_of_page">Back to top</a></li>
+                <li><a class="footer-link fa fa-instagram" href="https://www.instagram.com/merikssonk/" target="_blank"></a></li>
+                <li><a class="footer-link" href="mailto:michael.k.eriksson@gmail.com">Send Email</a></li>
+                <li><p class="phone-container">Phone: +46723132341</p></li>
+                <li><p class="author-container">Author: Michael Eriksson</p></li>
+            </ul>
+        </footer>
+    </body>
+</html>
